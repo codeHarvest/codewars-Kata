@@ -1,0 +1,11 @@
+// move zeroes to the end 
+
+
+
+var moveZeros = function (arr) {
+var arrofzeros = arr.filter(num => num === 0);
+var arrWithoutZeros = arr.filter(num => num !== 0);
+return arrWithoutZeros.concat(arrofzeros)
+
+}
+

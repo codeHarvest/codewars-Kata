@@ -118,3 +118,21 @@ function boolToWord( bool ){
     }
   }
 
+// count the monkeys 
+
+
+function monkeyCount(n) {
+   let arr = [];
+  for(var i =  1 ; i <= n; i++){
+    arr.push(i);
+  }
+  return arr;
+}
+
+
+// sum strings 
+
+
+function sumStr(a,b) {
+  return String(Number(a) + Number(b));
+}
